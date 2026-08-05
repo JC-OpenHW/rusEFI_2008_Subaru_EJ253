@@ -22,14 +22,14 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | A6  | blue   | etb (DC2+) | | | | |
 | A7  | red    | Ignition SW / Batter Voltage Analog Input | | | | |
 | A8  | red    | +12V From Main Relay | | | | |
-|     |        | | | | | |
+|   ---  | ---        | --- | --- | --- | --- | --- |
 | B1  | grey   | Injector Output 6 | | | | |
 | B2  | yellow | Injector Output 5 | | | | |
 | B3  | orange/brown | Injector Output 4 | **Injector #4** | | | |
 | B4  | blue   | Injector Output 3 | **Injector #3** | | | |
 | B5  | white  | Injector Output 2 | **Injector #2** | | | |
 | B6  | green  | Injector Output 1 | **Injector #1** | | | |
-| B7  | orange | VVT1 or Low Side Out 1 (flyback D2) | | | | |
+| B7  | orange | VVT1 or Low Side Out 1 (flyback D2) | | | | Variable Valve Timing ??? |
 | B8  | red    | **Fan Relay** Weak Low Side Out 2 (no flyback) | *Fan Relay* | | | |
 | B9  | grey   | **Main Relay** Weak Low Side Out 1 (no flyback) | *Main Relay* | | | |
 | B10 | grey   | Coil 6 (5v) | | | | |
@@ -41,17 +41,17 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | B16 | white  | **Fuel Pump Relay** Low Side Out 4 (flyback D5) | | | | |
 | B17 | yellow | Low Side out 3 (flyback D4) | | | | |
 | B18 | grey   | VVT2 Low Side out 2 (flyback D3) | | | | |
-|     |        | | | | | |
+|   ---  | ---        | --- | --- | --- | --- | --- |
 | C1  | red    | Sensor +5v | | | | |
 | C2  | red    | Sensor +5v | | | | |
 | C3  | yellow | Aux Analog Input 2 (500k Pull Down) | | | | |
-| C4  | orange/brown | PPS2 Universal Analog In | | | | |
+| C4  | orange/brown | PPS2 Universal Analog In | | | | PPS2 ??? |
 | C5  | green  | Hall Input 1 (4.7k Pull Up) | | | | All Hall Inputs are 12v Tolerant |
 | C6  | blue   | Hall Input 2 (4.7k Pull Up) | | | | All Hall Inputs are 12v Tolerant |
 | C7  | white  | Hall Input 2 (4.7k Pull Up) [VSS] | | | | All Hall Inputs are 12v Tolerant |
 | C8  | black  | Power Ground (VR Shield) | | | | |
-| C9  | grey   | Button In 3 (10k Pulldown) | | | | 12v Tolerant |
-| C10 | ???    | EGT (+) Input | | | | |
+| C9  | grey   | Button In 3 (10k Pull Down) | | | | 12v Tolerant |
+| C10 | ???    | EGT (+) Input | | | | What is EGT ???|
 | C11 | black  | Sensor Ground | | | | |
 | C12 | black  | Sensor Ground | | | | |
 | C13 | black  | Sensor Ground | | | | |
@@ -62,5 +62,27 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | C18 | blue   | VR1 (+) Input | | | | discreet for low count wheel |
 | C19 | white  | VR1 (-) Input | | | | |
 | C20 | ???    | EGT (-) Input | | | | |
-|     |        | | | | | |
-| 
+|   ---  | ---        | --- | --- | --- | --- | --- |
+| D1  | orange | Aux Analog Input 1 (500k Pull Down) | | | | |
+| D2  | yellow | Button In 1 (10k Pull Down) | | | | |
+| D3  | red    | Sensor +5v | | | | |
+| D4  | red    | Sensor +5v | | | | |
+| D5  | orange | Flex Input (10k Pull Up) | | | | |
+| D6  | white  | PPS Universal Analog In | | | | PPS (???) What Is ??? |
+| D7  | green  | CAN1 Bus High | | | | |
+| D8  | blue   | CAN1 Bus Low  | | | | |
+| D9  | yellow | MAP Universal Analog Input | | | | |
+| D10 | green  | Button In 2 (10k Pull Down) | | | | 12V Tolerant |
+| D11 | black  | Sensor Ground | | | | |
+| D12 | black  | Sensor Ground | | | | |
+| D13 | green  | Universal Analog In | | | | |
+| D14 | yellow | Knock Input | | | | Knock (-) goes to Analog Ground |
+| D15 | blue   | IAT Input | | | | IAT ??? |
+| D16 | grey   | CLT Input | | | | CLT ??? |
+| --- | ---    | --- | --- | --- | --- | --- |
+| E1  | grey   | WBO Heater (+) Pin #4 | | | | Wide Band Oxygen Sensor |
+| E2  | green  | WBO CalR Pin #5 | | | | |
+| E3  | white  | WBO Heater (-) Pin #3 | | | | |
+| E4  | black  | WBO Vs (Un) Pin #5 | | | | |
+| E5  | red    | WBO Ip Pin #1 | | | | |
+| E6  | yellow | WBO VS/Ip Pin #2 | | | | |
