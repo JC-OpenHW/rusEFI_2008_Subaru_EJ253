@@ -46,6 +46,21 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | C2  | red    | Sensor +5v | | | | |
 | C3  | yellow | Aux Analog Input 2 (500k Pull Down) | | | | |
 | C4  | orange/brown | PPS2 Universal Analog In | | | | |
-| C5  | green  | Hall Input 1 (4.7k Pull Up) | | | All Hall Inputs are 12v Tolerant |
-| C6  | blue   ||Hall Input 2 (4.7k Pull Up) | | | All Hall Inputs are 12v Tolerant |
-
+| C5  | green  | Hall Input 1 (4.7k Pull Up) | | | | All Hall Inputs are 12v Tolerant |
+| C6  | blue   | Hall Input 2 (4.7k Pull Up) | | | | All Hall Inputs are 12v Tolerant |
+| C7  | white  | Hall Input 2 (4.7k Pull Up) [VSS] | | | | All Hall Inputs are 12v Tolerant |
+| C8  | black  | Power Ground (VR Shield) | | | | |
+| C9  | grey   | Button In 3 (10k Pulldown) | | | | 12v Tolerant |
+| C10 | ???    | EGT (+) Input | | | | |
+| C11 | black  | Sensor Ground | | | | |
+| C12 | black  | Sensor Ground | | | | |
+| C13 | black  | Sensor Ground | | | | |
+| C14 | blue   | Universal Analog Input | | | | |
+| C15 | grey   | Fuel Pressure (500k Pull Down) [Analog Input 3] | | | | |
+| C16 | blue   | VR2 (+) Input | | | | max9924 best for normal 12+ tooth wheels |
+| C17 | white  | VR2 (-) Input | | | | max9924 best for normal 12+ tooth wheels |
+| C18 | blue   | VR1 (+) Input | | | | discreet for low count wheel |
+| C19 | white  | VR1 (-) Input | | | | |
+| C20 | ???    | EGT (-) Input | | | | |
+|     |        | | | | | |
+| 
