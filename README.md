@@ -97,3 +97,5 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 <img width="796" height="733" alt="image" src="https://github.com/user-attachments/assets/ab75ce66-380f-4ea8-ba19-b9988bf0749a" />
 
 Ok, so this schematic isn't great, because there are many pages that have "Out 1, Out2, ..." but with a little bit of reading of the drawings, it looks we have to add IGBTs for "dumb coils" - The current suspicion is that the coil in this car needs drivers for the coil as they're not a 5v or 12v signal input. Once I figure this out hopefully this will be a useful section.
+
+At minimum if I need the IGBTs, I'll have to remove the bypass 0 ohm resistors on those channels. I will need at most two, since the engine is a wasted spark setup.
