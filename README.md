@@ -57,7 +57,7 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | C13 | black  | Sensor Ground | | | | |
 | C14 | blue   | Universal Analog Input | | | | |
 | C15 | grey   | Fuel Pressure (500k Pull Down) [Analog Input 3] | | | | |
-| C16 | blue   | VR2 (+) Input | | | | max9924 best for normal 12+ tooth wheels |
+| C16 | blue   | VR2 (+) Input | | | | max9924 best for normal 12+ tooth wheels - *VR = Variable Reluctance" for gear tooth sensors* |
 | C17 | white  | VR2 (-) Input | | | | max9924 best for normal 12+ tooth wheels |
 | C18 | blue   | VR1 (+) Input | | | | discreet for low count wheel |
 | C19 | white  | VR1 (-) Input | | | | |
@@ -86,3 +86,14 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | E4  | black  | WBO Vs (Un) Pin #5 | | | | |
 | E5  | red    | WBO Ip Pin #1 | | | | |
 | E6  | yellow | WBO VS/Ip Pin #2 | | | | |
+
+
+
+
+
+
+## Ignition Coils
+
+<img width="796" height="733" alt="image" src="https://github.com/user-attachments/assets/ab75ce66-380f-4ea8-ba19-b9988bf0749a" />
+
+Ok, so this schematic isn't great, because there are many pages that have "Out 1, Out2, ..." but with a little bit of reading of the drawings, it looks we have to add IGBTs for "dumb coils" - The current suspicion is that the coil in this car needs drivers for the coil as they're not a 5v or 12v signal input. Once I figure this out hopefully this will be a useful section.
