@@ -41,5 +41,11 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | B16 | white  | **Fuel Pump Relay** Low Side Out 4 (flyback D5) | | | | |
 | B17 | yellow | Low Side out 3 (flyback D4) | | | | |
 | B18 | grey   | VVT2 Low Side out 2 (flyback D3) | | | | |
-
+|     |        | | | | | |
+| C1  | red    | Sensor +5v | | | | |
+| C2  | red    | Sensor +5v | | | | |
+| C3  | yellow | Aux Analog Input 2 (500k Pull Down) | | | | |
+| C4  | orange/brown | PPS2 Universal Analog In | | | | |
+| C5  | green  | Hall Input 1 (4.7k Pull Up) | | | All Hall Inputs are 12v Tolerant |
+| C6  | blue   ||Hall Input 2 (4.7k Pull Up) | | | All Hall Inputs are 12v Tolerant |
 
