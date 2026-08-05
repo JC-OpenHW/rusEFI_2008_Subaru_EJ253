@@ -10,6 +10,14 @@ I selected a [rusEFI](https://rusefi.com/) replacement ECU because of cost and f
 ## Pinout
 I did a quick test with AI about the pinout compatibility, but now I need to do the work and learn how the connections will work. 
 
-| uaEFI Connector | uaEFI Pin | Description | Subaru Connector | Subaru Pin |
-| --- | --- | --- | --- | --- |
-|
+| uaEFI Pin | uaEFI Pigtail Colour | uaEFI Description | Description | Subaru Connector | Subaru Pin |
+| --- | --- | --- | --- | --- | --- |
+| A1 | white | etb (DC1-) | **Electronic Throttle Body (-)** | | |
+| A2 | white | etb (DC2-) | | | |
+| A3 | black | gnd (Power Ground) | | | |
+| A4 | black | gnd (Power Ground) | | | |
+| A5 | blue  | etb (DC1+) | **Electronic Throttle Body (+)** | | |
+| A6 | blue  | etb (DC2+) | | | |
+| A7 | red   | Ignition SW / Batter Voltage Analog Input | | | |
+| A8 | red   | +12V From Main Relay | | | |
+
