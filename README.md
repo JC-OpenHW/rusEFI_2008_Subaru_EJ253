@@ -10,6 +10,8 @@ I selected a [rusEFI](https://rusefi.com/) replacement ECU because of cost and f
 ## Pinout
 I did a quick test with AI about the pinout compatibility, but now I need to do the work and learn how the connections will work. 
 
+*Current Status: Working on the rusEFI side*
+
 | uaEFI Pin | uaEFI Pigtail Colour | uaEFI Description | Description | Subaru Connector | Subaru Pin |
 | --- | --- | --- | --- | --- | --- |
 | A1 | white | etb (DC1-) | **Electronic Throttle Body (-)** | | |
@@ -20,4 +22,11 @@ I did a quick test with AI about the pinout compatibility, but now I need to do 
 | A6 | blue  | etb (DC2+) | | | |
 | A7 | red   | Ignition SW / Batter Voltage Analog Input | | | |
 | A8 | red   | +12V From Main Relay | | | |
-
+| | | | | | |
+| B1 | grey | Injector Output 6 | | | |
+| B2 | yellow | Injector Output 5 | | | |
+| B3 | orange/brown | Injector Output 4 | **Injector #4** | | |
+| B4 | blue | Injector Output 3 | **Injector #3** | | |
+| B5 | white | Injector Output 2 | **Injector #2** | | |
+| B6 | green | Injector Output 1 | **Injector #1** | | |
+| B7 | orange | VVT1 or Low Side Out 1 (has flyback D2 | | | |
